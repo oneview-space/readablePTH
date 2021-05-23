@@ -6,7 +6,7 @@ model.pth <--> model.json
 
 ## Installation
 ```bash
-pip install -U git@github.com:oneview-space/readablePTH.git
+pip install readablePTH
 ```
 
 ### For develop
