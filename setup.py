@@ -19,7 +19,7 @@ setup(
             'rpth = RPTH:main',
         ],
     },
-    install_requires=["torch~=1.8.1",
+    install_requires=["torch>=1.6",
                       "json-tricks~=3.15.5"
                       ]
 )
