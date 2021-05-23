@@ -1,4 +1,5 @@
 # Readable PTH 
+[![Upload Python Package](https://github.com/oneview-space/readablePTH/actions/workflows/release.yml/badge.svg)](https://github.com/oneview-space/readablePTH/actions/workflows/release.yml)
 
 ## About this project
 Make pth readable. \
