@@ -1,5 +1,8 @@
+[![OneView Logo](https://one-view.ai/wp-content/themes/ov/assets/images/oneview-logo@2x.png)](https://one-view.ai/)
 # Readable PTH 
+
 [![Upload Python Package](https://github.com/oneview-space/readablePTH/actions/workflows/release.yml/badge.svg)](https://github.com/oneview-space/readablePTH/actions/workflows/release.yml)
+[![GitHub license](https://img.shields.io/github/license/oneview-space/readablePTH?style=plastic)](https://github.com/oneview-space/readablePTH/blob/master/LICENSE)
 
 ## About this project
 Make pth readable. \
@@ -13,7 +16,7 @@ pip install readablePTH
 ### For develop
 Please clone the project
 ```bash
-git clone git@github.com:oneview-space/readablePTH.git
+git clone https://github.com/oneview-space/readablePTH.git
 ```
 And then install
 ```bash
