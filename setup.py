@@ -5,13 +5,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='readablePTH',
-    version='0.1.3',
+    version='0.1.4',
     packages=['RPTH'],
     url="https://github.com/oneview-space/readablePTH",
     license='',
     author='OneView',
     author_email='ophir@oneview.ai',
-    description='Make pth readable ',
+    description='This project can write json file from pth and can write the pth again from the json.',
     long_description=long_description,
     long_description_content_type="text/markdown",
     entry_points={
@@ -20,6 +20,7 @@ setup(
         ],
     },
     install_requires=["torch>=1.6",
-                      "json-tricks~=3.15.5"
+                      "json-tricks~=3.15.5",
+                      "numpy>=1.18.1"
                       ]
 )
