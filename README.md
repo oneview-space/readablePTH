@@ -6,6 +6,7 @@
 
 ## About this project
 Make pth readable. \
+This project can write json file from pth and can write the pth again from the json. \
 model.pth <--> model.json
 
 ## Installation
@@ -30,14 +31,20 @@ pip install -e .
 
 ### decode from pth to json
 ```bash
-rpth decode -i model.pth -o model.json 
+rpth decode -i test/models/model_small.pth -o test/models/model_small.json 
 ```
 
 ### encode from json to pth
 ```bash
-rpth encode -i model.json -o model.pth 
+rpth encode -i test/models/model_small.json -o test/models/model_small_restored.pth
 ```
 
+## Test
+For testing with small model run:
+```bash
+cd test
+python test_small_net.py
+```
 
 # TODO:
 - [ ] Add the ability to use any torch version 
