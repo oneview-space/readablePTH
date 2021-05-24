@@ -9,6 +9,10 @@ Make pth readable. \
 This project can write json file from pth and can write the pth again from the json. \
 model.pth <--> model.json
 
+#### Limitation
+model.pth must be the state_dict of a Pytorch model:
+`torch.save(model.state_dict(), 'model.pth')`
+
 ## Installation
 ```bash
 pip install readablePTH
@@ -48,4 +52,6 @@ python test_small_net.py
 
 # TODO:
 - [ ] Add the ability to use any torch version 
-- [ ] add args to map_location (CPU/GPU) when writing pth file
+- [ ] Add args to map_location (CPU/GPU) when writing pth file
+- [ ] Add compare state_dict or json methods for checking results
+
